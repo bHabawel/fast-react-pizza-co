@@ -5,6 +5,7 @@ import Loader from "./Loader";
 
 function AppLayout() {
   const navigation = useNavigation();
+  // eslint-disable-next-line
   const isLoading = navigation.state === "loading";
 
   return (
